@@ -1,0 +1,155 @@
+body {
+    background-color: #F7F7F7;
+}
+h1 {
+    display: none;
+}
+
+.navigation {
+    margin-right:5%;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    background-color: #181818;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.227);
+}
+.logo {
+    width: 95px;
+    height: auto;
+    display: block;
+    margin: 5px;
+}
+.menu{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 45px;
+}
+.spiderman {
+    transition: all 0.3s ease;
+}
+.spiderman:hover {
+    color: red;
+}
+.miles {
+    transition: all 0.3s ease;
+}
+.miles:hover {
+    color: rgb(0, 0, 0);
+}
+.moonknight {
+    transition: all 0.3s ease;
+}
+.moonknight:hover {
+    color: rgb(60, 59, 59);
+}
+.blackpanther {
+    transition: all 0.3s ease;
+}
+.blackpanther:hover {
+    color: rgb(103, 0, 172);
+}
+.pict {
+    width: 400px;
+    height: auto;
+    margin: 0% auto;
+    display: inline-block;
+}
+.bagian1 {
+    padding: 250px;
+    text-align: center;
+}
+.judul {
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+}
+.caption1 {
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 30px;
+}
+.bungkus {
+    background-color: #000000;
+    margin: 0% auto; 
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 0px 25px rgba(0, 0, 0, 0.227);
+}
+.pictspider {
+    width: 350px;
+    border-radius: 30px 0px 0px 30px;
+}
+h2 {
+    font-size: 50px;
+    text-align: start;
+    margin-left: 30px;
+    color: #F7F7F7;
+}
+.spider {
+    color: #F7F7F7;
+    font-size: 18px;
+}
+.bagian2 {
+    display: flex;
+    background-image:url(background-spiderman.png);
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    border-radius: 20px;
+    margin: 45px 0px;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.500);
+}
+.card {
+    display: flex;
+    background-color: #00000079;
+    border-radius: 0px 25px 25px 0px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.426);
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.410);
+    
+}
+.miles-morales {
+    flex-direction:row-reverse;
+}
+.tiga {
+    background-image: url(background-miles.png);
+}
+.-miles {
+    border-radius: 0px 30px 30px 0px;
+}
+span {
+    color: #95322C;
+}
+.beda {
+    color: #7e0a0a;
+}
+.empat {
+    background-image: url(background-moonknight.png);
+}
+.abu {
+    color: #c4c5c9;
+}
+.lima {
+    background-image: url(background-blackpanther.png);
+}
+.black {
+    color: #2a2a2a;
+}
+.purple {
+    color: #6c07ab;
+}
+.akhir {
+    margin-bottom: 500px;
+}

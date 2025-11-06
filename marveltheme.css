@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; 
+}
 body {
     background-color: #F7F7F7;
 }
@@ -40,19 +43,19 @@ h1 {
     transition: all 0.3s ease;
 }
 .miles:hover {
-    color: rgb(0, 0, 0);
+    color: #7e0a0a;
 }
 .moonknight {
     transition: all 0.3s ease;
 }
 .moonknight:hover {
-    color: rgb(60, 59, 59);
+    color: #c4c5c9;
 }
 .blackpanther {
     transition: all 0.3s ease;
 }
 .blackpanther:hover {
-    color: rgb(103, 0, 172);
+    color: #6c07ab;
 }
 .pict {
     width: 400px;
